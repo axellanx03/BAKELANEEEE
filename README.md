@@ -2,63 +2,36 @@
 
 ## Overview
 
-Bake Lane is a modern, high-converting website developed to support a small baking business in showcasing its products, attracting customers, and streamlining the ordering experience. This project was created with the goal of combining clean design, intuitive user experience, and strong visual appeal to help a local business grow its online presence.
+BakeLane transforms the traditional bakery website into a highly interactive digital experience. The application focuses on visual clarity, smooth micro-interactions, and a cohesive design language that mimics physical surfaces through the use of soft shadows and muted color palettes.
 
 The website serves as both a digital storefront and a branding platform, allowing customers to explore baked goods, learn about the business, and easily place orders or inquiries.
 
 ---
 
-## Purpose
-
-This project was built to address the needs of a small baking business by:
-
-* Providing a professional online presence
-* Showcasing products in an appealing and organized way
-* Improving customer engagement and trust
-* Increasing potential sales through a conversion-focused layout
-* Supporting business growth through digital accessibility
-
----
-
-## Features
-
-* Modern and visually appealing design
-* Neumorphic user interface for a soft, premium look
-* Responsive layout optimized for desktop and mobile devices
-* Product showcase with clear descriptions and pricing
-* Call-to-action elements designed to increase conversions
-* Structured sections for branding, storytelling, and customer trust
-* Clean navigation for a smooth browsing experience
+## Key Features
+* Neumorphic UI Design: A custom-built design system using soft extruded and inset shadows to create a premium, tactile feel.
+* Interactive Menu: A dynamic product catalog with real-time search functionality and category filtering for pastries, coffee, and non-coffee drinks.
+* Custom Drink Builder: A comprehensive customization interface allowing users to build their perfect cup with live previews, flavor profile generation, and automatic price calculation.
+* Streamlined Checkout: A responsive two-column checkout experience featuring cart management, preparation time estimation, and multiple payment method selections.
+* Membership System: Secure authentication flows for users to join the community, manage their information, and access member-only perks.
+* Admin Access: A dedicated administrative portal for staff to manage the platform securely.
+* Responsive Experience: Fully optimized for all screen sizes with fluid layouts and staggered entrance animations.
 
 ---
 
-## Design Approach
-
-The website follows a minimalist and modern design philosophy, enhanced with neumorphic elements to create depth and interactivity without overwhelming the user. The color palette is carefully chosen to remain soft and balanced, avoiding overly bright tones while maintaining readability and warmth.
-
-Special attention is given to:
-
-* Visual hierarchy
-* Spacing and alignment
-* Subtle animations and interactions
-* User-friendly navigation
+## Tech Stack
+* Frontend Framework: React 19
+* Styling: Tailwind CSS v4 (Utility-first CSS with custom neumorphic variables)
+* Animations: Motion (formerly Framer Motion) for smooth transitions and micro-interactions
+* Icons: Lucide React for consistent, scalable iconography
+* Routing: React Router DOM
+* Build Tool: Vite
 
 ---
 
-## Target Users
+## Design Philosophy
 
-* Dessert lovers and casual customers
-* Individuals looking for gifts or custom baked goods
-* Event planners for celebrations and special occasions
-* Local customers seeking convenient ordering options
-
----
-
-## Technologies Used
-
-* HTML, CSS, and JavaScript (or relevant framework if applied)
-* Modern UI/UX design principles
-* Responsive design techniques
+BakeLane follows the principles of Architectural Honesty and Intentional Variation. Every visual choice, from the specific radius of rounded corners to the intensity of the shadows, is designed to reinforce a mood that is technical yet warm. The color palette uses a base of Soft Cream (#f7f2e9) and Deep Cocoa (#271802) to maintain high readability while providing a distinctive look that avoids generic web aesthetics.
 
 ---
 
@@ -70,27 +43,10 @@ Lance Axel Miñoza
 
 ---
 
-## Vision
-
-The long-term vision of Bake Lane is to help small businesses leverage technology to compete in a digital-first market. This website is not just a project, but a step toward empowering local entrepreneurs with tools that enhance visibility, credibility, and customer reach.
-
----
-
-## Notes
-
-This project can be further expanded with:
-
-* Full e-commerce integration
-* Payment gateway support
-* Order tracking system
-* Customer account features
-
----
-
 ## License
 
 This project is for educational and small business use. Further customization and deployment may require additional configuration depending on the business needs.
-
+Copyright 2024 BakeLane. All rights reserved.
 
 ## Run Locally
 
