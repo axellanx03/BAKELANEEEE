@@ -1,10 +1,12 @@
-# Bake Lane Website
+# Bake Lane 
+
+BakeLane is a premium web application designed for a modern bakery and coffee shop experience. It features a sophisticated neumorphic (Soft UI) design system that emphasizes depth, tactile surfaces, and a warm, inviting aesthetic.
+
 
 ## Overview
 
 BakeLane transforms the traditional bakery website into a highly interactive digital experience. The application focuses on visual clarity, smooth micro-interactions, and a cohesive design language that mimics physical surfaces through the use of soft shadows and muted color palettes.
 
-The website serves as both a digital storefront and a branding platform, allowing customers to explore baked goods, learn about the business, and easily place orders or inquiries.
 
 ---
 
