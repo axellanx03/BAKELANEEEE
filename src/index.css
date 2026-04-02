@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  /* Neumorphic Colors */
+  --color-bg: #f7f2e9;
+  --color-light: #ffffff;
+  --color-dark: #d1c9bc;
+  --color-accent: #271802;
+  --color-accent-muted: #745847;
+
+  /* Neumorphic Shadows */
+  --shadow-nm-flat: 6px 6px 12px var(--color-dark), -6px -6px 12px var(--color-light);
+  --shadow-nm-inset: inset 6px 6px 12px var(--color-dark), inset -6px -6px 12px var(--color-light);
+  --shadow-nm-hover: 8px 8px 16px var(--color-dark), -8px -8px 16px var(--color-light);
+  --shadow-nm-pressed: inset 4px 4px 8px var(--color-dark), inset -4px -4px 8px var(--color-light);
+}
+
+@layer base {
+  body {
+    @apply bg-bg text-accent font-sans;
+  }
+}
+
+@utility nm-flat {
+  @apply shadow-nm-flat bg-bg rounded-2xl transition-all duration-300;
+}
+
+@utility nm-inset {
+  @apply shadow-nm-inset bg-bg rounded-2xl transition-all duration-300;
+}
+
+@utility nm-button {
+  @apply nm-flat hover:shadow-nm-hover active:shadow-nm-pressed active:scale-95 px-6 py-3 font-bold;
+}
+
+@utility nm-input {
+  @apply nm-inset px-4 py-3 border-none outline-none focus:ring-2 focus:ring-accent/10;
+}
